@@ -1,0 +1,22 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "learning unit-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjan-Bagri/unit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ranjan-Bagri/unit-test/issues"
+  },
+  "homepage": "https://github.com/Ranjan-Bagri/unit-test#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
