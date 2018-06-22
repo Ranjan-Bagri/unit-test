@@ -12,9 +12,6 @@ build:
     #Run tests
     - npm test
 
-    #Generate coverage report with istanbul
-    - ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --ui=bdd --reporter=xunit-file
-    - ./node_modules/.bin/istanbul report cobertura --dir shippable/codecoverage/
 
   cache: true
   cache_dir_list:
