@@ -6,6 +6,6 @@ build:
   # The steps that will be executed on build
   steps:
     # A step that executes `npm install` command
-    - npm install
+    - npm-install
     # A step that executes `npm test` command
-    - npm test
+    - npm-test
